@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Prova 2</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                background-color: grey;
+
+            }
+            .container {
+                position: relative;
+                background-color: red;
+                width: 200px;
+                height: 200px;
+                margin: auto;
+                top: 200px;
+                border-radius: 5%;
+                right: 200px;
+            }
+            .q1, .q2, .q3, .q4 {
+                background-color: salmon;
+            }
+            .q1 {
+                width: 50px;
+                height: 50px;
+                border: 1px solid red;
+                border-radius: 10%;
+                position: relative;
+                right: calc(-200px + 25px);
+                top:-25px;
+                
+            }
+            .q2 {
+                width: 50px;
+                height: 50px;
+                border: 1px solid black;
+                border-radius: 10%;
+            }
+            .q3 {
+                width: 50px;
+                height: 50px;
+                border: 1px solid black;
+                border-radius: 10%;
+                position: absolute;
+                top: 0;
+            }
+            .q4 {
+                width: 50px;
+                height: 50px;
+                border: 1px solid black;
+                border-radius: 10%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Titolone</h1>
+        <div class="container">
+            <div class="q1">Ciao, Q1</div>
+            <!-- <div class="q2">Ciao, Q2</div>
+            <div class="q3">Ciao, Q3</div>
+            <div class="q4">Ciao, Q4</div> -->
+        </div>                            
+    </body>
+</html>
