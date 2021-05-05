@@ -1,0 +1,484 @@
+body {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#navbarNav {
+    background-color: #f6b319;
+}
+
+.active {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+#logoImg {
+    background: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 1% 1% 1% 0;
+    float: left;
+}
+
+#logoText h1 {
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #222222;
+    font-weight: bold;
+    line-height: .75em;
+    margin: 0;
+}
+
+#logoCert {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 2%;    
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#navbarCollapseElements a:hover {
+    background-color: white;
+    border-radius: 8px;
+    transition: 300ms;
+}
+
+#navbarCollapseElements a {
+    color: #61122f;
+}
+
+#phone div {
+    color: green;
+}
+
+#navbarNav button.navbar-toggler {
+    border: 1px solid #61122f;
+    clear: both;
+}
+
+#navbarNav span.navbar-toggler-icon {
+    color: #61122f;
+}
+
+.container .jumbotron {
+    border: 1px solid #3a081b;
+    box-shadow: 0 0 16px 4px #3a0a1b;
+    margin: 5% 0;
+}
+
+.tile {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.tile:hover{
+    z-index: 1000;
+    box-shadow: 0 0 16px 4px #300715;
+    transition: 250ms;
+}
+
+.tile span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    background-color: rgba(32, 32, 32, 0.7);
+    border-radius: 12px;      
+    z-index: 999;
+    padding: 3.5% 0;    
+}
+
+#menuTile {
+    background: url(../assets/menu-tile.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#specialTile {
+    background: url(../assets/specials-tile.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    margin: 2% 0 0 0;
+    padding: 4% 0 3% 0;
+    background-color: #222222;
+    font-size: .9em;
+}
+
+footer hr {
+    background-color: rgb(88, 88, 88);
+    margin: 6% 0;
+    width: 100%;
+}
+
+footer div.row {
+    margin: 0 0 3% 0;
+    line-height: 1.7em;
+}
+
+footer span {
+    font-size: 1.5em;
+}
+
+#hours span, #address span {
+    margin-top: 100%;
+}
+
+#testimonials {
+    font-style: italic;
+}
+
+#address p {
+    margin-top: 3.5%;
+    font-size: 1em;
+    color: rgb(180, 180, 180);
+}
+
+#copyright {
+    font-size: .85em;
+}
+
+.menu-item-tile {
+    margin: 0 0 5% 0;
+}
+
+.menu-image-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 0 16px 4px #531028;
+    margin: 0 0 15px 0;    
+}
+
+.menu-image-wrapper div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 4% 4%;
+    background-color: #557c3e;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.img-responsive {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-iem-title {
+    font-size: .9em;
+}
+
+.menu-item-detail {
+    font-size: .9em;
+    font-style: italic;
+}
+
+.custom-divider {
+    background-color: rgb(165, 58, 102);
+    margin: 0 0 10% 0;
+    width: 90%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1400px) {
+    .container .jumbotron {        
+        background: url(../assets/jumbotron_1200.jpg) no-repeat;
+        height: 600px;        
+    }
+    
+    .menu-item-price {
+        font-size: 1.1em;
+        text-align: right;
+    }
+    .menu-item-price span {
+        font-size: .8em;
+        margin: 0 2% 0 0;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    #logoImg {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .container .jumbotron {
+        background: url(../assets/jumbotron_1200.jpg) no-repeat;
+        height: 600px;
+    }
+
+    .menu-item-price {
+        font-size: 1em;
+        text-align: right;
+    }
+    .menu-item-price span {
+        font-size: .7em;
+        margin: 0 2% 0 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #logoImg {
+        width: 100px;
+        height: 100px;
+    }
+
+    .container .jumbotron {
+        background: url(../assets/jumbotron_992.jpg) no-repeat;
+        height: 500px;
+    }
+
+    .menu-item-price {
+        font-size: 1em;
+        text-align: right;
+    }
+    .menu-item-price span {
+        font-size: .6em;
+        margin: 0 2% 0 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #logoImg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .container .jumbotron {
+        background: url(../assets/jumbotron_768.jpg) no-repeat;
+        height: 400px;
+    }
+
+    .menu-item-price {
+        font-size: 1.1em;
+        text-align: right;
+    }
+    .menu-item-price span {
+        font-size: .8em;
+        margin: 0 2% 0 0;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #logoImg {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .container .jumbotron {
+        background: url(../assets/jumbotron_768.jpg) no-repeat;
+        height: 400px;
+    }
+
+    .menu-item-price {
+        font-size: 1em;
+        text-align: right;
+    }
+    .menu-item-price span {
+        font-size: .7em;
+        margin: 0 2% 0 0;
+    }
+}
+
+@media (max-width: 575px) {
+    
+    #logoText h1 {
+        font-size: 5vw;
+    }
+
+    #logoCert img {
+        width: 24px;
+        height: 24px;
+    }
+
+    #logoCert span {
+        font-size: 3vw;
+    }
+
+    #phoneMobile {
+        margin: 3% 0;
+        border-radius: 10px;
+        border: 1px solid #ffffff;
+        padding: 3.5% 0;
+        background-color: #f6b319;         
+    }
+
+    #phoneMobile a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    button.navbar-toggler {
+        position: absolute !important;
+        right: 10px !important;
+        top: 14px !important;
+    }
+
+    .container .jumbotron {
+        background: url(../assets/jumbotron_768.jpg) no-repeat;
+        height: 400px;
+    }
+
+    footer {
+        margin: 4% 0 0 0;
+        padding: 12% 0 8% 0;
+    }
+
+    footer div.row {
+        margin: 0 0 8% 0;
+    }
+
+    .menu-item-price {
+        font-size: 1em;
+        text-align: right;
+    }
+    .menu-item-price span {
+        font-size: .6em;
+        margin: 0 2% 0 0;
+    }
+ }
+
+ /*********** menu-categories.html ************/
+
+ #menuCategoryHeader {
+     margin: 6% auto;
+ }
+
+ .category-tile {
+     position: relative;
+     height: 240px;     
+     margin-bottom: 20px;
+     border-radius: 10px;
+     overflow: hidden;
+ }
+
+ #categoryOne {
+    background: url(../assets/menu/B-1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ #categoryTwo {
+    background: url(../assets/menu/B-2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ #categoryThree {
+    background: url(../assets/menu/B-3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ #categoryFour {
+    background: url(../assets/menu/B-4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ #categoryFive {
+    background: url(../assets/menu/B-5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ #categorySix {
+    background: url(../assets/menu/B-6.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ #categorySeven {
+    background: url(../assets/menu/B-7.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ #categoryEight {
+    background: url(../assets/menu/B-8.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ #categoryNine {
+    background: url(../assets/menu/B-9.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ #categoryTen {
+    background: url(../assets/menu/B-10.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ #categoryEleven {
+    background: url(../assets/menu/B-11.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ #categoryTwelve {
+    background: url(../assets/menu/B-12.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ #categoryThirteen {
+    background: url(../assets/menu/B-13.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ #categoryFourteen {
+    background: url(../assets/menu/B-14.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ #categoryFifteen {
+    background: url(../assets/menu/B-15.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ #categorySixteen {
+    background: url(../assets/menu/B-16.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ .category-tile span {
+     position: absolute;
+     z-index: 999;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     text-align: center;
+     padding: 3% 0;
+     background-color: rgba(32, 32, 32, 0.7);
+     border-radius: 10px;
+     color: #ffffff;
+     text-transform: uppercase;
+ }
