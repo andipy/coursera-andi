@@ -1,0 +1,19 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+li:hover {
+    font-weight: bold;
+    transition: 300ms;    
+}
+
+.tile {
+    margin: 0 0 15px 0;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.tile h3, .tile p {
+    background-color: rgb(187, 187, 187);
+    margin: 0;
+}
